@@ -1,0 +1,308 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 450px){
+
+    .wrapper {
+        max-width: 350px;
+        margin: 0 auto;
+        padding: 7% 0%;
+    }
+
+    .grid {
+        display: grid;
+    }
+
+
+    section {
+        background-size: cover;
+        height: 230px;
+    }
+
+
+    /*---1番上のタイトル---------------------------------------------------------------------------------*/
+    .openingtitle p{
+        font-size: 18px;
+    }
+
+    .opening1 p {
+        font-size: 18px;
+    }
+
+    .opening2 p {
+        font-size: 27px;
+        font-weight: bold;
+    }
+
+    .ope {
+        font-size: 15px;
+    }
+
+
+
+    /*自己紹介--------初めまして新家勇希です---------------------------------------------------------------------------------*/
+    .topbox {
+        padding-bottom: 0px;
+    }
+    
+    .topbox img {
+        margin-left: 15px;
+        height: 130px;
+        width: 130px;
+    }
+
+    .top-title1 {
+        margin-left: 12px;
+    }
+    .top-title1 p {
+        font-size: 13px;
+        line-height: 30px;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+
+
+
+
+
+
+    /*自己紹介の下-------皆様はNPをご存知でしょうか？----------------------------------------------------------------------*/
+    .section1 {
+        height: 70px;
+    }
+    
+    .introduction-title h2{
+        padding-top: 50px;
+        padding-left: 20px;
+        font-size: 15px;
+    }
+
+
+
+    .box1 {
+        width: 324px;
+        height: 510px;
+        position: relative;
+    }
+
+    .box1 img {
+        position: absolute;
+        right: 0;
+        bottom: 0px;
+        width: 105px;
+        height: 115px;
+    }
+
+    .introduction{
+        padding-top: 15px;
+        font-size: 0px;
+        line-height: 15px;
+        
+    }
+
+    .introduction::before{
+        font-size: 13px;
+        content:'　診療看護師は、医師をはじめ、地域の医療関係者の皆\Aさまと連携・'
+                '協力しながら、一定レベルの診療をおこな\Aい、利用者さまの症状をタイムリーに把握・対応するこ\Aとで'
+                'QOL(生活の質)の向上を図ることを役割としていま\Aす。\A'
+                '\A'
+                '　診療看護師の資格は、日本NP教育大学院協議会の認\A定資格で、大学院の修士課程において、'
+                '医学や薬剤の知\A識を学び、臨床実習を修了する必要があります。'
+                '現在、\A全国では759名(2023年4月時点)の診療看護師が様々な現\A場で活躍しています。\A'
+                '\A'
+                '　この度、私が訪問看護ステーションあかりばで働くこ\Aとで、愛媛では初めての診療看護師となりました(2023年\A 4月時点)。\A'
+                '　まだまだ愛媛では聞き慣れない診療看護師(NP)という\A言葉ですが、'
+                '地域で過ごされる利用者さまやそのご家族\Aさまのお役に立てる資格と考え、取得してきました。\A'
+                'ステーションとして提供するケアの向上に励み、\A利用者さまの生活が、より安心・安楽に送る\Aことができるよう'
+                '努めてまいります。'
+                '\A'
+                '　今後ともよろしくお願いいたします。';
+        white-space: pre;
+    }
+
+
+    .introduction-under {
+        height: 75px;
+    }
+
+
+
+
+
+
+
+    /*診療看護師ができること---------------------------------------------------------------------------*/
+    .service-title {
+        font-size: 30px;
+    }
+
+
+
+
+
+
+
+
+
+    /*①特定行為ができる--------------------------------------------------------------------------------------*/
+    .servicetitle1{
+        background-size: 500px auto;
+        height: 90px;
+    }
+
+    .box2 {
+        width: 324px;
+        height: 350px;
+        display: flex;
+    }
+
+    .box2 p {
+        font-size: 0;
+        line-height: 15px;
+
+    }
+
+    .box2 img {
+        width: 150px;
+        height: 150px;
+        bottom: 70px;
+    }
+
+    .box2 p::before {
+        font-size: 13px;
+        content:'　あかりばに所属する診療看護師は、特定行為研修も修\A了しています。\A'
+        '　そのため、医師が作成した手順書に則り、厚生労働省\Aが認定する特定行為、21区分38行為を実施できます。\A'
+        '　在宅では、\A・気管カニューレ交換\A・胃瘻交換\A・褥瘡関連処置\A・陰圧閉鎖療法\A・脱水に対する輸液投与\Aなどが'
+        '多いです。\A'
+        '　カテーテルやチューブ類\Aを交換するために遠方の病\A院を受診する必要がなくな\Aり、助かったとの声も頂い\Aています。';
+        white-space: pre;
+    }
+
+
+
+
+
+
+
+
+
+
+    /*②心身の不調や--------------------------------------------------------------------------------------------*/
+    .servicetitle2 {
+        background-size: 500px auto;
+        height: 100px;
+    }
+
+
+    .box3 {
+        padding-top: 10px;
+        width: 324px;
+        height: 210px;
+    }
+
+    .box3 p {
+        font-size: 0px;
+        line-height: 15px;
+    }
+
+    .box3 img {
+        width: 150px;
+        height: 110px;
+    }
+
+    .box3 p::before{
+        font-size: 13px;
+        content: '　診療看護師は、大学院にて身体診察・病理学・薬理学\Aを中心に'
+                '医学的な知識を学んでいます。\A「医師に言うまでではないけど気'
+                'になる症状がある・・」\A「今飲んでいる薬って、どんな効果が'
+                'あるのだろう・・」\Aといった身近な相談に乗らせて頂きます。\A'
+                '　状況に応じては、かかりつけ医\Aへの報告も行い、'
+                '利用者さまの\Aより良い生活をサポートさせ\Aて頂きます。';
+        white-space: pre;
+        
+    }
+
+
+
+
+
+
+
+
+
+    /*③看護の質の向上-----------------------------------------------------------------------------------------*/
+    .servicetitle3 {
+        height: 110px;
+        background-size: 500px auto;
+    }
+
+
+    .box4 {
+        width: 324px;
+        height: 225px;
+        position: relative;
+    }
+    
+    .box4 p {
+        font-size: 0%;
+        line-height: 15px;
+    }
+    
+    .box4 img {
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+
+
+    .box4 p::before {
+        font-size: 13px;
+        content: '　あかりばに所属する診療看護師が主催して、ステー\Aション内で'
+                '勉強会を開催しています。\A'
+                '　看護はみんなで提供するも\Aのであるため、ステー\Aション内スタッフ'
+                'への教育を\A通じ、看護の質の向上を目指\Aしています。';
+        white-space: pre;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    /*フッター--------------------------------------------------------------------------------------------------*/
+    footer {
+        background-color: #e2991d;
+        height: 40px;
+    }
+
+
+    .footer p {
+        font: bold;
+        font-size: 11px;
+        padding-top: 12px;
+        padding-right: 8px;
+        padding-left: 20px;
+        color: rgb(62, 17, 104);
+    }
+
+    .footer img{
+        height: 30px;
+        width: 35px;
+        margin-top: 5px;
+    }
+
+
+}
+
+
+
+
+
+
+
